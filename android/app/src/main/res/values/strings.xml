@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PoolOff</string>
+    <string name="default_notification_channel_id">PoolOff</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "161688520119",
+    "firebase_url": "https://pooloff-6fb33.firebaseio.com",
+    "project_id": "pooloff-6fb33",
+    "storage_bucket": "pooloff-6fb33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161688520119:android:eb371e65e6f96997935432",
+        "android_client_info": {
+          "package_name": "com.pooloff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161688520119-fcmkgu3lhgeh5hsr2iqi8pkpadtibmvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pooloff",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "161688520119-i1g6b3sk0dqo1896mv9ff9ba081o0c6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfrzj2D2B7kBDPj8IsghSYcSp1lrRFPL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161688520119-i1g6b3sk0dqo1896mv9ff9ba081o0c6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

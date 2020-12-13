@@ -1,0 +1,13 @@
+rootProject.name = 'PoolOff'
+include ':react-native-styled-dialogs'
+project(':react-native-styled-dialogs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-styled-dialogs/android')
+include ':react-native-android-open-settings'
+project(':react-native-android-open-settings').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-open-settings/android')
+include ':react-native-vlc-media-player'
+project(':react-native-vlc-media-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vlc-media-player/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = file('../node_modules/react-native-push-notification/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
